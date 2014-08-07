@@ -1,0 +1,12 @@
+-------------------
+vcsh external repos
+-------------------
+
+This file is part of the vcsh external repos collection, which is essentially just a collection of git repos turned into git submodules, in order to place them in the correct locations through symlinks.
+
+This is necessary since git submodules do not allow for .gitmodules files from different repositories to co-exist.
+
+Currently there are two repos added in here::
+
+    oh-my-zsh
+    spf13-vim
